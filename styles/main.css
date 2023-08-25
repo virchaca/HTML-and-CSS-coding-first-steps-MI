@@ -40,10 +40,15 @@ h1 {
   justify-content: center;
 }
 
+/* desactivado por vir porque pone el nav de los iconos aqua */
+
+/*
 nav {
   background-color: aqua;
   padding: 15px 50px;
 }
+
+*/
 .menu {
   list-style: none;
   display: flex;
@@ -140,12 +145,6 @@ nav {
 
 
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .adalaber-section h2{
   color: aqua;
   text-align: center;
@@ -206,12 +205,13 @@ nav {
   display: flex;
   flex-direction: row;
   list-style: none;
-  gap: 0.2em;    
+  gap: 0.2em; 
+  color: aqua;     
 }
 
 .nav-icons {
   display: flex;
-  justify-content: space-around;      
+  justify-content: space-around;        
 }
 
 .nav-icons a {
@@ -233,6 +233,7 @@ nav {
 
 .adalaber-icons {    
   width: 124px;
+  color: aqua
 }
 /*
 .adalaber-icons i {
