@@ -1,23 +1,78 @@
 :root {
-    /* COLORS */
-    --light-grey-blue: rgba(184, 184, 185, 0.1);
-    --black-8: rgba(0,0,0,0.08);
-    --brand-main-color: #099d8d; /* blue-green */
-    --brand-secondary-color: #14d9c4; /* aqua */
-    --brand-grayscale-one: #ffffff; /* white */
-    --brand-grayscale-two: #b8b8b9; /* cool-grey */
-    --brand-grayscale-three: #54585a; /*  gunmetal*/
-    --brand-grayscale-four: #000000; /* black */
-    /* FONTS
+  /* COLORS */
+  --light-grey-blue: rgba(184, 184, 185, 0.1);
+  --black-8: rgba(0, 0, 0, 0.08);
+  --brand-main-color: #099d8d; /* blue-green */
+  --brand-secondary-color: #14d9c4; /* aqua */
+  --brand-grayscale-one: #ffffff; /* white */
+  --brand-grayscale-two: #b8b8b9; /* cool-grey */
+  --brand-grayscale-three: #54585a; /*  gunmetal*/
+  --brand-grayscale-four: #000000; /* black */
+  /* FONTS
     Rubik-medium
     Opensans
     OpenSans-Semibold */
-    --font-1: "Rubik", sans-serif;
-    --font-2: "Open Sans", sans-serif;
-    /* FALTAN LAS VARIABLES DE LOS TAMAÑOS */
-  }
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  --font-1: "Rubik", sans-serif;
+  --font-2: "Open Sans", sans-serif;
+  /* FALTAN LAS VARIABLES DE LOS TAMAÑOS */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 97%;
+}
+h1 {
+  padding: 25px;
+  background-color: #099d8d;
+  color: white;
+  font-family: Rubik;
+  font-size: 24px;
+
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  background-color: aqua;
+  padding: 15px 50px;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-family: Rubik;
+  font-size: 19px;
+}
+
+.hero {
+  height: 500px;
+  background-image: url(Project_group_team_2/Images_Github/download.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.phrase-s1 {
+  padding: 10px;
+  font-family: "Rubik";
+  font-size: 16px;
+  background-color: white;
+  width: 80%;
+  display: inline-block;
+  position: absolute;
+  z-index: 0;
+  top: 60%;
+  left: 10%;
+}
