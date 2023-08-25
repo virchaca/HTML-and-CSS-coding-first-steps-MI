@@ -76,3 +76,33 @@ nav {
   top: 60%;
   left: 10%;
 }
+.page-wrapper {
+  margin: 0px 15px;
+}
+.about-us {
+  position: relative; /* añadido para el .end-of-frame */
+  padding: 30px 0px;
+  text-align: center;
+}
+.about-us-title {
+  margin-bottom: 15px;
+  font-family: var(--font-1);
+  font-size: 24px;
+  text-transform: uppercase;
+  color: var(--brand-secondary-color);
+}
+.about-us-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-family: var(--font-2);
+  font-size: 16px;
+  color: var(--brand-grayscale-three);
+}
+.end-of-frame {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(50%) rotate(45deg);
+}
