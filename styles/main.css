@@ -247,3 +247,90 @@ nav {
 .adalaber-section {
   margin-bottom: 45px;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* COLORS */
+  --light-grey-blue: rgba(184, 184, 185, 0.1);
+  --black-8: rgba(0,0,0,0.08);
+  --brand-main-color: #099d8d; /* blue-green */
+  --brand-secondary-color: #14d9c4; /* aqua */
+  --brand-grayscale-one: #ffffff; /* white */
+  --brand-grayscale-two: #b8b8b9; /* cool-grey */
+  --brand-grayscale-three: #54585a; /*  gunmetal*/
+  --brand-grayscale-four: #000000; /* black */
+  /* FONTS
+  Rubik-medium
+  Opensans
+  OpenSans-Semibold */
+  --font-1: "Rubik", sans-serif;
+  --font-2: "Open Sans", sans-serif;
+  /* FALTAN LAS VARIABLES DE LOS TAMAÑOS */
+}
+
+footer {
+
+  height: 320px;
+  width: 100%;
+  border: solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+
+}
+     
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+ 
+  
+}
+
+.menupie {
+width: 114px;
+height: 160px;
+margin: 20px 29px 30px;
+
+list-style: none; 
+}
+
+.copy {
+  
+  width: 172px;
+  height: 20px;
+  margin:  20px;
+  font-family: OpenSans;
+  font-size: 14px;
+  color: var(-- --brand-grayscale-two);
+  
+   
+}
+.equipofoo {
+
+color: var(--brand-grayscale-three);
+text-decoration: none;
+}
+.contactofoo {
+
+color: var(--brand-grayscale-three);
+text-decoration: none;
+
+}
+.quienesfoo {
+
+color: var(--brand-grayscale-three);
+text-decoration: none;
+}
+.logoada{
+  width: 140px;
+  height: 105;
+  
+}
