@@ -21,12 +21,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+.page-wrapper {
+  margin: 0 15px;
+}
+
 header {
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 100;
   opacity: 97%;
 }
 h1 {
@@ -34,21 +38,17 @@ h1 {
   background-color: #099d8d;
   color: white;
   font-family: Rubik;
-  font-size: 24px;
+  font-size: 16px;
 
   display: flex;
   justify-content: center;
 }
-
-/* desactivado por vir porque pone el nav de los iconos aqua */
-
-/*
-nav {
+.nav-menu {
   background-color: aqua;
   padding: 15px 50px;
+  font-size: 15px;
 }
 
-*/
 .menu {
   list-style: none;
   display: flex;
@@ -58,12 +58,14 @@ nav {
   color: white;
   text-decoration: none;
   font-family: Rubik;
-  font-size: 19px;
+  font-size: 15px;
 }
-
+.hero-wrap {
+  position: relative;
+}
 .hero {
   height: 500px;
-  background-image: url(Project_group_team_2/Images_Github/download.jpg);
+  background-image: url(../images/el-arte-de-coco.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -71,18 +73,17 @@ nav {
 }
 .phrase-s1 {
   padding: 10px;
-  font-family: "Rubik";
-  font-size: 16px;
-  background-color: white;
   width: 80%;
   display: inline-block;
   position: absolute;
-  z-index: 0;
-  top: 60%;
-  left: 10%;
-}
-.page-wrapper {
-  margin: 0px 15px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+
+  font-family: var(--font-1);
+  font-size: 16px;
+  background-color: var(--brand-grayscale-one);
+  text-align: center;
 }
 .about-us {
   position: relative; /* añadido para el .end-of-frame */
@@ -109,18 +110,17 @@ nav {
   height: 30px;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%) translateY(50%) rotate(45deg);
+  transform: translateX(-50%)  translateY(50%) rotate(45deg); 
+  background-color: var(--brand-grayscale-one) ;
 }
-.section-3 {
+.section-strengths-weaknesses {
   display: flex;
   flex-direction: column;
   gap: 30px;
   padding: 1.875rem 0.938rem 2.813rem;
   background-color: rgba(184, 184, 185, 0.2);
 }
-.page-wrapper {
-  margin: 0 15px;
-}
+
 .article-section-strengths h2 {
   text-align: center;
   line-height: 45px;
@@ -143,38 +143,34 @@ nav {
   color: var(--brand-grayscale-three);
 }
 
-
-
-.adalaber-section h2{
+.adalaber-section h2 {
   color: aqua;
   text-align: center;
   text-transform: uppercase;
   margin: 20px;
-  
-                  }
-
+}
 
 .adalaber {
   display: flex;
-  flex-direction: column;  
-  align-items: center; 
-  }
+  flex-direction: column;
+  align-items: center;
+}
 
 /* imagen*/
 
 .adalaber-photo img {
-  width: 100%;  
-  border: 5px solid rgb(180, 173, 173);  
+  width: 100%;
+  border: 5px solid rgb(180, 173, 173);
   border-radius: 15px;
-          }
+}
 
-.adalaber-photo {   
+.adalaber-photo {
   display: flex;
   width: 180px;
   height: 180px;
   margin-right: 70px;
-  margin-left: 70px; 
-  margin-top: 40px;       
+  margin-left: 70px;
+  margin-top: 40px;
 }
 
 /* nombre adalaber*/
@@ -188,16 +184,16 @@ nav {
 
 /*texto descripcion adalaber*/
 
-.adalaber-text {    
-  margin: 15px; 
+.adalaber-text {
+  margin: 15px;
   width: 290px;
-  height: 200px; 
- }
+  height: 200px;
+}
 
- .adalaber-text p {
+.adalaber-text p {
   font-size: 16px;
   color: gray;
- }
+}
 
 /* iconos*/
 
@@ -205,13 +201,13 @@ nav {
   display: flex;
   flex-direction: row;
   list-style: none;
-  gap: 0.2em; 
-  color: aqua;     
+  gap: 0.2em;
+  color: aqua;
 }
 
 .nav-icons {
   display: flex;
-  justify-content: space-around;        
+  justify-content: space-around;
 }
 
 .nav-icons a {
@@ -231,9 +227,9 @@ nav {
   color: aqua;
 }
 
-.adalaber-icons {    
+.adalaber-icons {
   width: 124px;
-  color: aqua
+  color: aqua;
 }
 /*
 .adalaber-icons i {
@@ -241,96 +237,57 @@ nav {
 } */
 
 .punto {
-  color:aqua;
+  color: aqua;
   font-size: 20px;
 }
 .adalaber-section {
   margin-bottom: 45px;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-:root {
-  /* COLORS */
-  --light-grey-blue: rgba(184, 184, 185, 0.1);
-  --black-8: rgba(0,0,0,0.08);
-  --brand-main-color: #099d8d; /* blue-green */
-  --brand-secondary-color: #14d9c4; /* aqua */
-  --brand-grayscale-one: #ffffff; /* white */
-  --brand-grayscale-two: #b8b8b9; /* cool-grey */
-  --brand-grayscale-three: #54585a; /*  gunmetal*/
-  --brand-grayscale-four: #000000; /* black */
-  /* FONTS
-  Rubik-medium
-  Opensans
-  OpenSans-Semibold */
-  --font-1: "Rubik", sans-serif;
-  --font-2: "Open Sans", sans-serif;
-  /* FALTAN LAS VARIABLES DE LOS TAMAÑOS */
-}
 
 footer {
-
   height: 320px;
   width: 100%;
   border: solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
-  
-
-}
-     
-ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
- 
- 
-  
 }
 
 .menupie {
-width: 114px;
-height: 160px;
-margin: 20px 29px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-list-style: none; 
+.menupie {
+  width: 114px;
+  height: 160px;
+  margin: 20px 29px 30px;
+
+  list-style: none;
 }
 
 .copy {
-  
   width: 172px;
   height: 20px;
-  margin:  20px;
+  margin: 20px;
   font-family: OpenSans;
   font-size: 14px;
   color: var(-- --brand-grayscale-two);
-  
-   
 }
 .equipofoo {
-
-color: var(--brand-grayscale-three);
-text-decoration: none;
+  color: var(--brand-grayscale-three);
+  text-decoration: none;
 }
 .contactofoo {
-
-color: var(--brand-grayscale-three);
-text-decoration: none;
-
+  color: var(--brand-grayscale-three);
+  text-decoration: none;
 }
 .quienesfoo {
-
-color: var(--brand-grayscale-three);
-text-decoration: none;
+  color: var(--brand-grayscale-three);
+  text-decoration: none;
 }
-.logoada{
+.logoada {
   width: 140px;
   height: 105;
-  
 }
