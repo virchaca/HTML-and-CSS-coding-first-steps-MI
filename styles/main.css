@@ -143,11 +143,15 @@ h1 {
   color: var(--brand-grayscale-three);
 }
 
+/* titulo seccion adalabers */
 .adalaber-section h2 {
-  color: aqua;
+  color: var(--brand-main-color);
   text-align: center;
   text-transform: uppercase;
   margin: 20px;
+  font-family: var(--font-1);
+  font-size: 24px;
+  line-height: 45px;
 }
 
 .adalaber {
@@ -157,7 +161,6 @@ h1 {
 }
 
 /* imagen*/
-
 .adalaber-photo img {
   width: 100%;
   border: 5px solid rgb(180, 173, 173);
@@ -174,72 +177,53 @@ h1 {
 }
 
 /* nombre adalaber*/
-
 .adalaber-name h3 {
   text-align: center;
   margin-left: 72.5px;
   margin-right: 70.5px;
   margin-top: 15px;
+  font-family: var(--font-2);
+  font-size: 20px;
+  line-height: 45px;
 }
 
 /*texto descripcion adalaber*/
-
 .adalaber-text {
-  margin: 15px;
-  width: 290px;
-  height: 200px;
+  margin: 15px;  
 }
 
 .adalaber-text p {
   font-size: 16px;
-  color: gray;
+  color: var(--brand-grayscale-three);
+  font-family: var(--font-2);
+  line-height: 24px;
+  text-align: center;
 }
 
 /* iconos*/
-
 .nav-icons ul {
   display: flex;
   flex-direction: row;
   list-style: none;
-  gap: 0.2em;
-  color: aqua;
+  gap: 0.2em;  
 }
 
 .nav-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around;  
 }
 
 .nav-icons a {
-  color: aqua;
+  color: var(--brand-main-color);
 }
-
-/*
-.dot::after {
-  content: ·; 
-} 
-*/
-.span-icons {
-  color: aqua;
-  font-size: 30px;
-}
-.span-icons a {
-  color: aqua;
-}
-
-.adalaber-icons {
-  width: 124px;
-  color: aqua;
-}
-/*
-.adalaber-icons i {
-  width: 25%;
-} */
 
 .punto {
-  color: aqua;
+  color: var(--brand-main-color);
   font-size: 20px;
 }
+/*.dot::after { content: ·; } */ 
+
+/*separar final seccion de principio siguiente*/
 .adalaber-section {
   margin-bottom: 45px;
 }
