@@ -35,8 +35,8 @@ header {
 }
 h1 {
   padding: 25px;
-  background-color: #099d8d;
-  color: white;
+  background-color: var(--brand-main-color);
+  color: var(--brand-grayscale-one);
   font-family: Rubik;
   font-size: 16px;
 
@@ -44,7 +44,7 @@ h1 {
   justify-content: center;
 }
 .nav-menu {
-  background-color: aqua;
+  background-color: var(--brand-secondary-color);
   padding: 15px 50px;
   font-size: 15px;
 }
@@ -55,7 +55,7 @@ h1 {
   justify-content: space-between;
 }
 .menu a {
-  color: white;
+  color: var(--brand-grayscale-one);
   text-decoration: none;
   font-family: Rubik;
   font-size: 15px;
