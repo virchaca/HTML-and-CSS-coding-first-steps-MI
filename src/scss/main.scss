@@ -1,4 +1,4 @@
-@import 'core/variables';
+// @import 'core/variables';
 @import 'core/reset';
 
 :root {
@@ -17,17 +17,11 @@
     OpenSans-Semibold */
   --font-1: "Rubik", sans-serif;
   --font-2: "Open Sans", sans-serif;
-  /* FALTAN LAS VARIABLES DE LOS TAMAÑOS */
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 .page-wrapper {
   margin: 0 15px;
 }
-
 header {
   width: 100%;
   position: fixed;
