@@ -34,7 +34,7 @@ header {
   top: 0;
   left: 0;
   z-index: 100;
-  opacity: 97%;
+  opacity: 88%;
 }
 h1 {
   padding: 25px;
@@ -288,4 +288,10 @@ footer {
   
   
 
+}
+
+// // TABlet
+
+@media screen and (min-width: 736px) {
+  
 }
