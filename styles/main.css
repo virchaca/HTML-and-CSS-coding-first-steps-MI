@@ -116,6 +116,7 @@ h1 {
 .section-strengths-weaknesses {
   display: flex;
   flex-direction: column;
+  padding: 15px;
   gap: 30px;
   padding: 1.875rem 0.938rem 2.813rem;
   background-color: rgba(184, 184, 185, 0.2);
