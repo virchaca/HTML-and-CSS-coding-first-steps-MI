@@ -88,13 +88,14 @@ h1 {
   text-align: center;
 }
 .about-us-title {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   font-family: var(--font-1);
   font-size: 24px;
   text-transform: uppercase;
   color: var(--brand-secondary-color);
 }
 .about-us-text {
+  margin: auto;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -107,8 +108,9 @@ h1 {
   height: 30px;
   position: absolute;
   left: 50%;
+  bottom: 0;
   transform: translateX(-50%)  translateY(50%) rotate(45deg); 
-  background-color: var(--brand-grayscale-one) ;
+  background-color: var(--brand-grayscale-one);
 }
 .section-strengths-weaknesses {
   display: flex;
@@ -282,4 +284,41 @@ footer {
   
   
 
+}
+
+@media (min-width: 768px) {
+  .page-wrapper {
+    margin: 0 45px;
+  }
+
+
+
+
+
+/* ABOUT US */
+.about-us-title {
+  color: var(--brand-main-color);
+}
+/* END ABOUT US */
+
+}
+@media (min-width: 1200px) {
+  .page-wrapper {
+    margin: 0 138px;
+  }
+  
+  
+  
+  
+  
+/* ABOUT US */
+.about-us {
+  padding: 45px 0 60px ;
+  text-align: center;
+}
+.about-us-text {
+  max-width: 600px;
+}
+  /* END ABOUT US */
+  
 }
