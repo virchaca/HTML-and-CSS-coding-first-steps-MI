@@ -1,0 +1,40 @@
+.about-us {
+  position: relative; /* added for .diamond */
+  padding: 30px 0px;
+  text-align: center;
+  @media (min-width: 1200px) {
+    padding: 45px 0 60px ;
+    text-align: center;    
+  }
+    &__title {
+      margin-bottom: 15px;
+      font-family: $font-1;
+      font-size: 24px;
+      text-transform: uppercase;
+      color: $brand-secondary-color;
+      @media (min-width: 768px) {
+        color: $brand-main-color;
+      }
+    }
+    &__text {
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      font-family: $font-2;
+      font-size: 16px;
+      color: $brand-grayscale-three;
+      @media (min-width: 1200px) {
+        max-width: 600px;
+      }
+    }
+  }
+.diamond {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%)  translateY(50%) rotate(45deg); 
+  background-color: $brand-grayscale-one;
+}
