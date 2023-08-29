@@ -1,4 +1,4 @@
-// @import 'core/variables';
+@import 'core/variables';
 @import 'core/reset';
 
 :root {
@@ -18,17 +18,17 @@
   --font-1: "Rubik", sans-serif;
   --font-2: "Open Sans", sans-serif;
 }
-
 .page-wrapper {
   margin: 0 15px;
 }
+
 header {
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 100;
-  opacity: 97%;
+  opacity: 88%;
 }
 h1 {
   padding: 25px;
@@ -88,14 +88,13 @@ h1 {
   text-align: center;
 }
 .about-us-title {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   font-family: var(--font-1);
   font-size: 24px;
   text-transform: uppercase;
   color: var(--brand-secondary-color);
 }
 .about-us-text {
-  margin: auto;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -108,9 +107,8 @@ h1 {
   height: 30px;
   position: absolute;
   left: 50%;
-  bottom: 0;
   transform: translateX(-50%)  translateY(50%) rotate(45deg); 
-  background-color: var(--brand-grayscale-one);
+  background-color: var(--brand-grayscale-one) ;
 }
 .section-strengths-weaknesses {
   display: flex;
@@ -286,39 +284,28 @@ footer {
 
 }
 
+// Tablet
+
 @media (min-width: 768px) {
   .page-wrapper {
     margin: 0 45px;
+    .about-us-title {
+    color: var(--brand-main-color);
+    }
   }
-
-
-
-
-
-/* ABOUT US */
-.about-us-title {
-  color: var(--brand-main-color);
 }
-/* END ABOUT US */
 
-}
+// Desktop
+
 @media (min-width: 1200px) {
   .page-wrapper {
     margin: 0 138px;
   }
-  
-  
-  
-  
-  
-/* ABOUT US */
-.about-us {
-  padding: 45px 0 60px ;
-  text-align: center;
-}
-.about-us-text {
-  max-width: 600px;
-}
-  /* END ABOUT US */
-  
+  .about-us {
+    padding: 45px 0 60px ;
+    text-align: center;
+  }
+  .about-us-text {
+    max-width: 600px;
+  }
 }
