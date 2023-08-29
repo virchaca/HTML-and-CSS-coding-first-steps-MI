@@ -1,23 +1,6 @@
 @import 'core/variables';
 @import 'core/reset';
 
-:root {
-  /* COLORS */
-  --light-grey-blue: rgba(184, 184, 185, 0.1);
-  --black-8: rgba(0, 0, 0, 0.08);
-  --brand-main-color: #099d8d; /* blue-green */
-  --brand-secondary-color: #14d9c4; /* aqua */
-  --brand-grayscale-one: #ffffff; /* white */
-  --brand-grayscale-two: #b8b8b9; /* cool-grey */
-  --brand-grayscale-three: #54585a; /*  gunmetal*/
-  --brand-grayscale-four: #000000; /* black */
-  /* FONTS
-    Rubik-medium
-    Opensans
-    OpenSans-Semibold */
-  --font-1: "Rubik", sans-serif;
-  --font-2: "Open Sans", sans-serif;
-}
 .page-wrapper {
   margin: 0 15px;
 }
