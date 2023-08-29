@@ -31,9 +31,9 @@ header {
   top: 0;
   left: 0;
   z-index: 100;
-  opacity: 97%;
+  opacity: 85%;
 }
-h1 {
+.namegroup{
   padding: 25px;
   background-color: var(--brand-main-color);
   color: var(--brand-grayscale-one);
@@ -271,3 +271,50 @@ footer {
   
 
 }
+@media (min-width: 768px){
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 85%;}
+
+  .namegroup{
+    width:50%;
+    justify-content: flex-start;
+  }
+
+  .nav-menu{
+    width: 50%;
+    height:100%;
+    background-color: #099d8d;
+    padding:25px;}
+  .hero{
+    height: 400px;
+  }
+  .phrase-s1{
+    width: 50%;
+    height: 30%;
+    opacity: 80%;
+    left:33%;
+    text-align: left;
+    font-size: 15px;
+    text-transform: bold;
+    padding:20px;
+    transform: translateX(-50%) translateY(-70%);
+  }
+ }
+
+@media (min-width: 1280px){
+  .namegroup{
+    justify-content: center;
+  }
+  .menu{
+   justify-content:center;
+   gap:50px;
+}
+.hero{
+  height: 250px; 
+   
+}
+.phrase-s1{
+  font: size 50px;}}
