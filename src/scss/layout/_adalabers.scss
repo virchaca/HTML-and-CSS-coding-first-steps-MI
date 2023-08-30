@@ -44,7 +44,7 @@
   
   /*texto descripcion adalaber*/
  .adalaber-text {
-  margin: 15px;
+  margin: 15px 15px 15px 15px;
   width: 290px;
   height: 200px;
 }
@@ -62,7 +62,7 @@
     display: flex;
     flex-direction: row;
     list-style: none;
-    gap: 0.2em;  
+    gap: 0.4em;  
   }
   
   .nav-icons {
@@ -79,9 +79,169 @@
     font-size: 20px;
   }
   
-  
   /*separar final seccion de principio siguiente*/
   .adalaber-section {
     margin-bottom: 45px;
+  }
+  
+  /* movil- se pone? (min-width: 320px)*/
+  
+   /*tablet*/
+   @media all and (min-width: 768px) {
+    .adalaber {
+      display: flex;
+      flex-direction: row;
+      align-items: center;      
+      padding-left: 8vw;
+      padding-right: 8vw;
+    }
+    
+    .adalaber-container {      
+      width: 60%;      
+      }
+
+    .adalaber-photo {
+      display: flex;
+      justify-content: flex-start;
+      width: 18rem;
+      height: 18rem;  
+    }
+    
+    /* nombre adalaber*/
+    .adalaber-name h3 {
+      text-align: left;
+      margin-left: 10px;      
+    }
+    
+    /*texto descripcion adalaber*/
+   .adalaber-text {
+    width: 80%;
+    margin-left: 10px;
+    margin-right: 70.5px;
+    height: fit-content;
+  }
+    
+    .adalaber-text p {
+      text-align: left;    
+    }
+    
+    /* iconos*/
+    .nav-icons ul {      
+      margin-left: 10px;
+      margin-right: 70.5px;
+      }
+    
+    .nav-icons {
+      display: flex;
+      justify-content: left;      
+    }
+
+    .second-daniela, .fourth-mireia {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        padding-left: 8vw;
+        padding-right: 8vw;
+      }
+      .second-daniela, .fourth-mireia .adalaber-name h3 {
+        text-align: right;  
+        margin-right: 30px;           
+      }
+      .second-daniela, .fourth-mireia .adalaber-text {
+        margin-right: 10px;
+        margin-left: 70.5px;        
+      }
+
+      .second-daniela, .fourth-mireia .adalaber-text p {
+        text-align: right;    
+      }
+      .second-daniela, .fourth-mireia .nav-icons {
+        display: flex;
+        justify-content: right;             
+      }
+      .second-daniela, .fourth-mireia .nav-icons ul {
+        margin-left: 70.5px;
+        margin-right: 30px;
+        }
+  }
+
+  /*desktop*/
+   @media all and (min-width: 1200px) {
+    .adalaber {
+      display: flex;
+      flex-direction: row;
+      align-items: center;      
+      padding-left: 8vw;
+      padding-right: 8vw;
+    }
+    
+    .adalaber-container {      
+      width: 60%;      
+      }
+
+    .adalaber-photo {
+      display: flex;
+      justify-content: flex-start;
+      width: 18rem;
+      height: 18rem;  
+    }
+    
+    /* nombre adalaber*/
+    .adalaber-name h3 {
+      text-align: left;
+      margin-left: 10px;      
+    }
+    
+    /*texto descripcion adalaber*/
+   .adalaber-text {
+    width: 80%;
+    margin-left: 10px;
+    margin-right: 70.5px;
+    height: fit-content;
+  }
+    
+    .adalaber-text p {
+      text-align: left;    
+    }
+    
+    /* iconos*/
+    .nav-icons ul {      
+      margin-left: 10px;
+      margin-right: 70.5px;
+      }
+    
+    .nav-icons {
+      display: flex;
+      justify-content: left;      
+    }
+
+    .second-daniela, .fourth-mireia {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        padding-left: 8vw;
+        padding-right: 8vw;
+      }
+      .second-daniela, .fourth-mireia .adalaber-name h3 {
+        text-align: right;  
+        margin-right: 30px;           
+      }
+      .second-daniela, .fourth-mireia .adalaber-text {
+        margin-right: 10px;
+        margin-left: 70.5px;        
+      }
+
+      .second-daniela, .fourth-mireia .adalaber-text p {
+        text-align: right;    
+      }
+      .second-daniela, .fourth-mireia .nav-icons {
+        display: flex;
+        justify-content: right;             
+      }
+      .second-daniela, .fourth-mireia .nav-icons ul {
+        margin-left: 70.5px;
+        margin-right: 30px;
+        }
+    
   }
   
