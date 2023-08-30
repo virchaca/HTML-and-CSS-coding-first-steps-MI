@@ -1,0 +1,37 @@
+  
+.strengths {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 45px 45px 60px 45px;
+    background-color: rgba(184, 184, 185, 0.2);
+    
+    @media (min-width: 768px) {
+        flex-direction: row;
+    }
+
+    &__article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        &--title {
+            text-align: center;
+            line-height: 45px;
+            font-size: 22px;
+            font-family: $font-1;
+            color: #099d8d;
+        }
+
+        &--text {
+            text-align: center;
+            font-family: $font-2;
+            font-size: 16px;
+            line-height: 24px;
+            color: $brand-grayscale-three;
+        }
+    }
+}
+  
+
+  
