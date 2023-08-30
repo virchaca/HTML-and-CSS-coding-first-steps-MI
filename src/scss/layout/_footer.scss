@@ -34,6 +34,11 @@
   text-transform: uppercase;
   text-decoration: none;
  }
+
+ .logoada {
+  height: 45px;
+
+ }
       
  @media screen and (min-width: 768px) {
    .footer {
@@ -42,8 +47,8 @@
    flex-direction: row;
 
    }
-
 .__copy {
+  
   position: relative;
   right: 70px;
   bottom: 40px;
@@ -57,9 +62,7 @@
   top: 55px;
 }
 
-.footernav {
-  height: 2opx;
-}
+
 
 
 .links {
@@ -72,7 +75,14 @@
 
  }
 
-   
+ @media (min-width: 1200px) {
+
+  .logoada {
+    position: relative;
+    right: 800px;
+
+  }
+ }
 
 
 
@@ -87,52 +97,48 @@
 
 
 
-
-
-
-
-// footer {
+// // footer {
   
-//   border-top: solid black;
-//   height: 320px;
-//   width: 100%;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   margin-bottom: 100px;
+// //   border-top: solid black;
+// //   height: 320px;
+// //   width: 100%;
+// //   display: flex;
+// //   flex-direction: column;
+// //   align-items: center;
+// //   margin-bottom: 100px;
   
-//   &__copy {
-//     width: 172px;
-//     height: 20px;
-//     margin: 20px;
-//     font-family: OpenSans;
-//     font-size: 14px;
-//     color: $brand-grayscale-three:;
-//   }
-// }
+// //   &__copy {
+// //     width: 172px;
+// //     height: 20px;
+// //     margin: 20px;
+// //     font-family: OpenSans;
+// //     font-size: 14px;
+// //     color: $brand-grayscale-three:;
+// //   }
+// // }
  
   
 
 
-//    &__footermenu {
-//     display: flex;
-//   flex-direction: column;
-//   justify-content: center;
+// //    &__footermenu {
+// //     display: flex;
+// //   flex-direction: column;
+// //   justify-content: center;
 
-//   margin: 20px 29px;
-//   list-style: none;
-//   text-align: center;
-//   text-transform: uppercase;
+// //   margin: 20px 29px;
+// //   list-style: none;
+// //   text-align: center;
+// //   text-transform: uppercase;
 
 
 
-//    & --footerlink {
-//   color: var(--brand-grayscale-two);
-//   text-decoration: none;
-// }
+// //    & --footerlink {
+// //   color: var(--brand-grayscale-two);
+// //   text-decoration: none;
+// // }
 
-//    &--logoada
-//     {
-//   width: 140px;
-// }
-//    }
+// //    &--logoada
+// //     {
+// //   width: 140px;
+// // }
+// //    }
