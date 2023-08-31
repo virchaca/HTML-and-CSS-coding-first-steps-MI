@@ -1,4 +1,21 @@
-@import "core/reset";
 @import "core/variables";
+@import "core/reset";
+
 @import "layout/header";
 @import "layout/hero";
+@import "layout/about-us";
+@import "./layout/strengths";
+
+.page-wrapper {
+  margin: 0 15px;
+
+  // Tablet
+  @media (min-width: 768px) {
+    margin: 0 45px;
+  }
+
+  // Desktop
+  @media (min-width: 1200px) {
+    margin: 0 138px;
+  }
+}
