@@ -1,12 +1,12 @@
 @import "core/variables";
 @import "core/reset";
-
 @import "layout/header";
 @import "layout/hero";
 @import "layout/about-us";
 @import "./layout/strengths";
-@import "./layout/footer";
-
+@import 'layout/adalabers';
+@import 'core/mediaQueriesAdalabers';
+@import "layout/footer";
 .page-wrapper {
   margin: 0 15px;
 
