@@ -3,66 +3,231 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <title>Landing Team 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/66349fc88a.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
   </head>
 
   <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+    <header class="header">
+      <h1 class="header__namegroup">NOMBRE DEL GRUPO</h1>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
+      <nav class="header__nav">
+        <ul class="header__nav--menu">
+          <li><a href="#">EQUIPO</a></li>
+          <li><a href="#">QUIENES SOMOS</a></li>
+          <li><a href="#">CONTACTO</a></li>
         </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+      </nav>
+    </header>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
+    <main>
+      <section class="hero">
+        <section class="hero__image"></section>
+        <section class="hero__phrase">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        </section>
+      </section>
 
-          </li>
-        </ul>
-      </main>
+      <section class="page-wrapper">
+        <section class="about-us">
+          <h2 class="about-us__title">Equipo</h2>
+          <section class="about-us__text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cum
+              accusamus dolorum consequuntur odio maiores laudantium sed placeat
+              minima. Itaque optio laboriosam reiciendis, sit animi sapiente similique
+              quaerat repudiandae laudantium.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis maiores
+              saepe vel illum quae harum unde, quasi mollitia itaque sequi iusto
+              voluptate asperiores! Excepturi debitis laudantium accusantium enim,
+              minus voluptatibus.
+            </p>
+          </section>
+          <div class="diamond"></div>
+        </section>
+      </section>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+      <section class="strengths">
+        <article class="strengths__article">
+          <h2 class="strengths__article--title">Fortalezas</h2>
+          <p class="strengths__article--text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dolor quas sit minus iure quasi voluptatum tempora natus, neque esse autem ratione voluptas cum et minima eveniet provident ullam! Saepe.voluptas cum et minima eveniet provident ullam! Saepe</p>
+        </article>
 
-        </small>
-      </footer>
+        <article class="strengths__article">
+          <h2 class="strengths__article--title">Debilidades</h2>
+          <p class="strengths__article--text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dolor quas sit minus iure quasi voluptatum tempora natus, neque esse autem ratione voluptas cum et minima eveniet provident ullam! Saepe voluptas cum et minima eveniet provident ullam! Saepe</p>
+        </article>
 
-    </div>
-    <script src="./assets/js/main.js"></script>
+      </section>
+
+      <section class="adaSection">
+          <h2>Quienes somos</h2>
+
+              <article class="adalaber barbara">
+                      
+                          <div class="adaPhoto">
+                              <img src="./assets/images/1.png" alt="foto de buchy">
+                          </div>
+
+                          <div class="adaContainer">
+                              <div class="adaName"><h3>buchy</h3></div>
+
+                              <div class="adaText"><p>Coding is Dead, Long Live Programming! Low code and no code platforms are the talk of the town, but will they hold up in the future?</p></div>
+
+                              <div class="adaIcons">
+                                  <nav class="navIcons">
+                                      <ul>
+                                          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                          <li class="punto">·</li>                    
+                                          <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                          <li class="punto">·</li>
+                                          <li><a href="#"><i class="fa-brands fa-github-alt"></i></a></li>
+                                          <li class="punto">·</li>
+                                          <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+                                      </ul>
+                                  </nav>
+                              </div>
+                          </div>           
+              </article>
+
+              <article class="adalaber daniela">
+                  
+                      <div class="adaPhoto">
+                          <img src="./assets/images/2.png" alt="foto de Daniela">
+                      </div>
+
+                      <div class="adaContainer">
+                          <div class="adaName"><h3>Daniela</h3></div>
+
+                          <div class="adaText"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minus similique dicta, in suscipit dolore! Quasi reprehenderit numquam voluptatibus voluptates a in ut molestiae laudantium est magnam iure, deserunt nostrum?</p></div>
+
+                          <div class="adaIcons">
+                              <nav class="navIcons">
+                                  <ul>
+                                      <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                      <li class="punto">·</li>                    
+                                      <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                      <li class="punto">·</li>
+                                      <li><a href="#"><i class="fa-brands fa-github-alt"></i></a></li>
+                                      <li class="punto">·</li>
+                                      <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+                                  </ul>
+                              </nav>
+                          </div>
+                      </div>
+              </article>
+
+              <article class="adalaber irene">
+                      
+                          <div class="adaPhoto">
+                              <img src="./assets/images/1.png" alt="foto de Irene">
+                          </div>
+
+                          <div class="adaContainer">
+                              <div class="adaName"><h3>Irene</h3></div>
+
+                              <div class="adaText"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minus similique dicta, in suscipit dolore! Quasi reprehenderit numquam voluptatibus voluptates a in ut molestiae laudantium est magnam iure, deserunt nostrum?</p></div>
+
+                              <div class="adaIcons">
+                                  <nav class="navIcons">
+                                      <ul>
+                                          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                          <li class="punto">·</li>                    
+                                          <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                          <li class="punto">·</li>
+                                          <li><a href="#"><i class="fa-brands fa-github-alt"></i></a></li>
+                                          <li class="punto">·</li>
+                                          <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+                                      </ul>
+                                  </nav>
+                              </div>
+                          </div>
+              </article>
+
+              <article class="adalaber mireia">
+                      
+                          <div class="adaPhoto">
+                              <img src="./assets/images/4.png" alt="foto de Mireia">
+                          </div>
+
+                          <div class="adaContainer">
+                              <div class="adaName"><h3>Mireia</h3></div>
+
+                              <div class="adaText"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minus similique dicta, in suscipit dolore! Quasi reprehenderit numquam voluptatibus voluptates a in ut molestiae laudantium est magnam iure, deserunt nostrum?</p></div>
+
+                              <div class="adaIcons">
+                                  <nav class="navIcons">
+                                      <ul>
+                                          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                          <li class="punto">·</li>                    
+                                          <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                          <li class="punto">·</li>
+                                          <li><a href="#"><i class="fa-brands fa-github-alt"></i></a></li>
+                                          <li class="punto">·</li>
+                                          <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+                                      </ul>
+                                  </nav>
+                              </div>
+                          </div>
+              </article>
+
+              <article class="adalaber virginia">
+                      
+                          <div class="adaPhoto">
+                              <img src="./assets/images/5.png" alt="foto de Virginia">
+                          </div>
+
+                          <div class="adaContainer">
+                              <div class="adaName"><h3>Virginia</h3></div>
+
+                              <div class="adaText"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minus similique dicta, in suscipit dolore! Quasi reprehenderit numquam voluptatibus voluptates a in ut molestiae laudantium est magnam iure, deserunt nostrum?</p></div>
+
+                              <div class="adaIcons">
+                                  <nav class="navIcons">
+                                      <ul>
+                                          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                          <li class="punto">·</li>                    
+                                          <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                          <li class="punto">·</li>
+                                          <li><a href="#"><i class="fa-brands fa-github-alt"></i></a></li>
+                                          <li class="punto">·</li>
+                                          <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+                                      </ul>
+                                  </nav>
+                              </div>
+                          </div>
+              </article>    
+      </section> 
+    </main>
+    <footer class="footer">
+            
+        <span class="__copy">Nombre del grupo © 2023</span>
+
+        <nav class="footernav">
+            <ul>
+                <li class="links"><a class="--footerlink" href="">Equipo</a></li>
+                <li class="links"><a class="--footerlink" href="">Quiénes somos</a></li>
+                <li class="links"><a class="--footerlink" href="">Contacto</a></li>
+                
+            </ul>    
+              
+        </nav>            
+
+    <div>
+        <img class="logoada" src="./assets/images/logo-adalab.png" alt="logo-adalab">
+    </div>    
+    </footer>   
   </body>
 </html>
