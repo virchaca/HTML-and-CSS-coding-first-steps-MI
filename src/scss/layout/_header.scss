@@ -59,21 +59,16 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .header {
+    &__namegroup {
+      justify-content: space-evenly;
+    }
 
-@media (min-width: 1200px){
-.header{
-  &__namegroup{
-    
-    justify-content: space-evenly ;}
-
-  &__nav--menu{
-    justify-content: center;
-    margin-left: 30px;
-    ;
-    gap:30px
-  }
-
-   
-    
+    &__nav--menu {
+      justify-content: center;
+      margin-left: 30px;
+      gap: 30px;
+    }
   }
 }

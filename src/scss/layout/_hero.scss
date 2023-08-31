@@ -1,58 +1,58 @@
-.hero{
+.hero {
   position: relative;
-   
-   &__image{
+
+  &__image {
     height: 500px;
     background-image: url(../images/el-arte-de-coco.jpg);
     background-size: cover;
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
     z-index: -1;
   }
-    &__phrase{
+  &__phrase {
     padding: 10px;
     width: 80%;
     display: inline-block;
-    position:absolute;
+    position: absolute;
     transform: translateX(-50%) translateY(-50%);
     left: 50%;
     font-family: $font-1;
     font-size: 16px;
-    background-color: $brand-grayscale-one ;
+    background-color: $brand-grayscale-one;
     text-align: center;
-    }}
+  }
+}
 
-
-    @media (min-width: 768px) {
-      .hero{
-        &__image{
-          height: 400px;
-        }
-
-        &__phrase{
-          width: 50%;
-          height: 30%;
-          opacity: 75%;
-          left:33%;
-          top:98%;
-          text-align: left;
-          font-size: 15px;
-          padding: 20px;
-          text-transform: bold;
-          
-      
-    }  }}
-
-    
-    @media (min-width: 1200px){
-      .hero{
-        &__image{height: 500px;}
-        &__phrase{font-size: 30px;
-        width: 60%;
-      margin-left: 3%;
-         top:95%;}
-
-
-      }
+@media (min-width: 768px) {
+  .hero {
+    &__image {
+      height: 400px;
     }
-  
+
+    &__phrase {
+      width: 50%;
+      height: 30%;
+      opacity: 75%;
+      left: 33%;
+      top: 98%;
+      text-align: left;
+      font-size: 15px;
+      padding: 20px;
+      text-transform: bold;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero {
+    &__image {
+      height: 500px;
+    }
+    &__phrase {
+      font-size: 30px;
+      width: 60%;
+      margin-left: 3%;
+      top: 95%;
+    }
+  }
+}
