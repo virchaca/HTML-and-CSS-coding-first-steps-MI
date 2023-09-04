@@ -44,8 +44,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: left;
   }
 
   .__copy {
@@ -57,9 +57,10 @@
 
   .adab {
     grid-row: 2/3;
-    grid-column: 1/2;
-    justify-content: flex-end;
-    padding-right: 60px;;
+    grid-column: span 1;
+    justify-content: flex-start;
+    
+    
   }
   .footernav {
     grid-column: 3/4;
