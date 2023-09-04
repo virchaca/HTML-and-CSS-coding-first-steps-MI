@@ -9,6 +9,8 @@
 @import 'core/mediaQueriesAdalabers';
 @import "layout/footer";
 
+@import "pages/contact";
+
 .page-wrapper {
   margin: 0 15px;
   @media (min-width: 768px) {

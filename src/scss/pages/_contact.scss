@@ -1,0 +1,60 @@
+.hero__contact {
+  height: 500px;
+  background-image: url(../images/hero-contact.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.contact {
+  text-align: center;
+  &__title {
+    padding: 30px 0 15px;
+    font-family: $font-1;
+    color: $brand-main-color;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 45px;
+  }
+  &__description,
+  &__warning {
+    font-family: $font-2;
+    color: $brand-grayscale-three;
+    line-height: 24px;
+  }
+  &__description {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  &__warning {
+    margin-bottom: 58px;
+    font-size: 12px;
+  }
+  &__asterisk {
+    color: $brand-secondary-color;
+  }
+  &__form {
+    text-align: left;
+    display: grid;
+    width: 90vw;
+    margin: 10px;
+    gap: 5px;
+    font-family: $font-2;
+    font-size: 14px;
+    & label {
+        color: $brand-grayscale-three;
+
+    }
+    & input {
+      height: 45px;
+      &::placeholder {
+        color: $brand-grayscale-two;
+      }
+    }
+    & textarea {
+    //   color: $brand-grayscale-three;
+      &::placeholder {
+        color: $brand-grayscale-two;
+      }
+    }
+  }
+}
